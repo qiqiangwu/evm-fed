@@ -52,7 +52,7 @@ ionic-project
 * src/app/standard 标准模块目录，包含项目通用页面，其他项目复用的组件、服务、管道等
 * src/app/standard/components/** 标准模块下通用组件，每个组件为领域模块，地方项目可以导入使用
 * src/app/standard/models/** 标准模块使用的类或者接口定义
-* src/app/standard/pages/** 标准模块下通用页面
+* src/app/standard/pages/** 标准模块下通用页面，模块业务服务，放到各自模块目录下，不要放到全局Service目录下
 * src/app/standard/pipe/** 标准模块下通用管道，每个管道为领域模块，地方项目可以导入使用
 * src/app/standard/services/** 应用的服务，注册到根模块，可以直接注入
 * src/app/standard/types/** 标准模块定义的type
